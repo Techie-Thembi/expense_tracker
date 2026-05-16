@@ -2,3 +2,4 @@
 /home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/ExpenseManagement.AssemblyInfoInputs.cache
 /home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/ExpenseManagement.AssemblyInfo.cs
 /home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/ExpenseManagement.csproj.CoreCompileInputs.cache
+/home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/ExpenseManagement.sourcelink.json
