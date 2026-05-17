@@ -8,7 +8,6 @@ class Program
     {
         // Entry point for the application
         Console.WriteLine("Expense Management Application started.");
-        // You can add further logic here as needed.
     }
 //Transaction types and categories
 enum TransactionType
