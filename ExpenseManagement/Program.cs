@@ -74,3 +74,45 @@ class Expense : Transaction
     }
 }
     
+//Savings goal class
+class SavingsGoal
+{
+    public string GoalName {get;set;}
+    public decimal TargetAmount{get; set;}
+    public DateTime CreatedDate{get;set;}
+
+    public SavingsGoal(string name, decimal target)
+    {
+        if(target <= 0)
+        throw new ArgumentException("Target amount must be positive!");
+
+        GoalName = name;
+        TargetAmount = target;
+        CreatedDate = DateTime.Now;
+    }
+
+    public double CalculateProgress(decimal currentSavings)
+    {
+        return (double) (currentSavings / TargetAmount * 100);
+    }
+
+    public void DisplayProgress(decimal currentSavings)
+    {
+        double progress = CalculateProgress(currentSavings);
+        Console.WriteLine($"\n Goal: {GoalName}");
+        Console.WriteLine($"Target: ${TargetAmount:F2}");
+        Console.WriteLine($"Current Savings: ${currentSavings:F2}");
+        Console.WriteLine($"Progress: {progress:F2}%");
+
+        if(progress >= 100)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Goal Achieved!");
+            Console.ResetColor();
+        }
+        else
+        {
+            Console.WriteLine($"Remaining: ${TargetAmount - currentSavings:F2}");
+        }
+    }
+}
