@@ -3,3 +3,13 @@
 /home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/ExpenseManagement.AssemblyInfo.cs
 /home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/ExpenseManagement.csproj.CoreCompileInputs.cache
 /home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/ExpenseManagement.sourcelink.json
+/home/thembi/C#/expense_tracker/ExpenseManagement/bin/Debug/net10.0/ExpenseManagement
+/home/thembi/C#/expense_tracker/ExpenseManagement/bin/Debug/net10.0/ExpenseManagement.deps.json
+/home/thembi/C#/expense_tracker/ExpenseManagement/bin/Debug/net10.0/ExpenseManagement.runtimeconfig.json
+/home/thembi/C#/expense_tracker/ExpenseManagement/bin/Debug/net10.0/ExpenseManagement.dll
+/home/thembi/C#/expense_tracker/ExpenseManagement/bin/Debug/net10.0/ExpenseManagement.pdb
+/home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/ExpenseManagement.dll
+/home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/refint/ExpenseManagement.dll
+/home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/ExpenseManagement.pdb
+/home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/ExpenseManagement.genruntimeconfig.cache
+/home/thembi/C#/expense_tracker/ExpenseManagement/obj/Debug/net10.0/ref/ExpenseManagement.dll

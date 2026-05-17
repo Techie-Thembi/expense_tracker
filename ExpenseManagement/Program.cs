@@ -2,6 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Entry point for the application
+        Console.WriteLine("Expense Management Application started.");
+        // You can add further logic here as needed.
+    }
 //Transaction types and categories
 enum TransactionType
 {
@@ -115,4 +123,5 @@ class SavingsGoal
             Console.WriteLine($"Remaining: ${TargetAmount - currentSavings:F2}");
         }
     }
+}
 }
